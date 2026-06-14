@@ -1,0 +1,6 @@
+{
+  "name": "Elsfen SEO Advisor",
+  "description": "Elsfen Bauelemente ve NRW bölgesi için özel SEO, büyüme ve dönüşüm optimizasyonu analiz ve strateji paneli.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
