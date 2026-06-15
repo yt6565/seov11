@@ -525,7 +525,7 @@ Bitte führe die tiefgehende Ahrefs- und Semrush-konforme Analyse durch und konf
               },
               body: JSON.stringify({
                 model: 'claude-sonnet-4-6',
-                max_tokens: 8000,
+                max_tokens: 16000,
                 system: promptSystem + "\nFormuliere alle Analysen tiefgehend aus. Erzeuge reiches, detailliertes Material.",
                 messages: [
                   { role: 'user', content: promptUser }
@@ -598,7 +598,7 @@ Bitte führe die tiefgehende Ahrefs- und Semrush-konforme Analyse durch und konf
               },
               body: JSON.stringify({
                 model: 'claude-sonnet-4-6',
-                max_tokens: 8000,
+                max_tokens: 16000,
                 system: promptSystem + "\nGib NUR das rohe JSON-Objekt ohne jegliche Markdowns (wie ```json) oder Text davor/danach zurück, so dass JSON.parse direkt darauf funktioniert.",
                 messages: [
                   { role: 'user', content: promptUser }
